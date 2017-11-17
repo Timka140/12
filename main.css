@@ -1,0 +1,285 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+v2.0 | 20110126
+License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+display: block;
+}
+body {
+line-height: 1;
+font-family: 'Open Sans',Arial, Helvetica, sans-serif;
+}
+ol, ul {
+list-style: none;
+}
+blockquote, q {
+quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content: '';
+content: none;
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+/* ______________________________________________________ */
+.sait {
+    display: block;
+    width: 1900px;
+    background: #ddd;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.top-menu {
+    display: block;
+    position: relative;
+    height: 200px;
+    padding-left: 300px;
+    background: #fff;  
+}
+.menu-div {
+    display: inline-block;
+    width: 400px;
+    height: 200px;
+    position: relative;
+}
+.menu-div img:nth-child(1){
+    position: absolute;
+    top: 60px;
+    left: 40px;
+}
+.menu-div:nth-child(1) div{
+    position: absolute;
+    width: 220px;
+    height: 120px;
+    top: 70px;
+    left: 130px;
+    font-style: italic;
+    text-align: center;
+}
+.menu-div:nth-child(1) h3{
+    margin: 2px;
+}
+.menu-div:nth-child(1) p{
+    font-size: 12px;
+    margin: 2px;
+}
+.menu-div:nth-child(2) div{
+    position: absolute;
+    text-align: center;
+    top: 40px;
+}
+.menu-div:nth-child(2) h4,p {
+    margin: 10px;
+}
+.menu-div:nth-child(2) a {
+    display: inline-block;
+    position: absolute;
+    top: 25px;
+    left: 275px;
+    width: 85px;
+    height: 40px;
+    background: url("./img/vk.png");
+    background-size: cover; 
+}
+.menu-div:nth-child(3) div{
+    position: absolute;
+    top: 30px;
+}
+.menu-div:nth-child(3) h2,p,a{
+    margin: 5px;
+    text-align: center;
+}
+.menu-div:nth-child(3) p{
+    font-size: 14px;
+}
+.viber, .whats, .telegram{
+    font-size: 14px;
+    color: #777;
+    display: inline-block;
+    width: 120px;
+    height: 40px;
+    text-align: right;
+    line-height: 40px;
+}
+.viber {
+    background: url("./img/v.png");
+    background-position: 40px; 
+    background-repeat:no-repeat;
+}
+.whats {
+    background: url("./img/w.png");
+    background-position: 10px; 
+    background-repeat:no-repeat;
+}
+.telegram {
+    background: url("./img/t.png");
+    background-position: 25px; 
+    background-repeat:no-repeat;
+}
+.content {
+    position: relative;
+    background: url("./img/1.jpg")
+}
+.line-menu {
+    display: block;
+    position: absolute;
+    top: 0;
+    height: 50px;
+    width: 1900px;
+    background: rgba(21, 7, 212, 0.425);
+}
+.line-menu ul {
+    margin: auto;
+    height: 50px;
+    width: 800px;
+}
+.line-menu ul li {
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+}
+.line-menu ul li a {
+    color: #fff;
+    width: 140px;
+    height: 40px;
+    line-height: 40px;
+    display: block;
+}
+.line-menu ul li:hover {
+    transition: all .2s ease-in-out;
+    background: rgba(12, 2, 145, 0.747);
+}
+.content-text {
+    display: block;
+    margin: auto;
+    padding-top: 50px; 
+    width: 900px;
+    text-align: center;
+    color: #fff;
+}
+.content-text h1 {
+    margin: 30px 0 5px 0;
+}
+.content-text h4 {
+    margin: 0 0 20px 0;
+}
+.text-hl{
+    margin-top: 80px;
+}
+.mid-menu-content {
+    display: block;
+    margin: 50px 0 50px 0; 
+    height: 80px;
+    width: 1900px;
+}
+.mid-menu-content ul {
+    width: 1100px;
+    margin: auto;
+}
+.mid-menu-content ul li{
+    display: inline-block;
+    width: 250px;
+    height: 80px;
+}
+.mid-menu-content ul li i{
+    font-size: 22px;
+}
+.mid-menu-content ul li a{
+    display: block;
+    width: 250px;
+    height: 80px;
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+}
+.post-form {
+    display: block;
+    width: 600px;
+    height: 180px;
+    margin: auto;
+    background: rgba(221, 221, 221, 0.281);
+    padding-top: 20px;
+    border-radius: 5px;
+}
+.post-form p{
+    text-align: center;
+    color: #fff;
+}
+.send-nomer {
+    display: block; 
+    width: 450px;
+    height: 50px;
+    margin: 30px auto 40px auto;
+    overflow: hidden;
+    border-radius: 8px;
+}
+.send-nomer input {
+    width: 300px;
+    height: 50px;
+    margin: 0;
+    padding-left: 5px; 
+}
+.send-nomer button {
+    height: 56px;
+    width: 141px;
+    margin-left: -5px;
+    background: rgb(201, 22, 126);
+    color: #fff;
+    font-weight: bold;  
+    padding: 0;
+    border: 1px solid rgb(160, 7, 96);
+}
+.info {
+    display: block;
+    width: 1900px;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+}
+.info i {
+    font-size: 22px;
+    overflow: hidden;
+}
+.info div{
+    font-weight: lighter;
+    width: 500px;
+    background: rgba(14, 13, 13, 0.596);
+    color: #fff;
+    height: 0px;
+    border-radius: 5px; 
+    transition:  all .2s ease-in-out;
+}
+.info i:hover div {
+    height: 60px;
+    padding: 5px;
+}
+.undef {
+    display: block;
+    width: 1900px;
+    height: 100px;
+}
